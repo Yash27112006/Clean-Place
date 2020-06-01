@@ -1,8 +1,8 @@
 class Paper {
     constructor(x,y) {
         var options = {
-            'restitution':0.5,
-            'friction':0.8,
+            'restitution':1,
+            'friction':0.1,
             'density':0.1
         }
       this.body = Bodies.rectangle(x,y,1,1,options);
