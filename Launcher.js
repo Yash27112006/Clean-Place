@@ -3,8 +3,8 @@ class Launcher{
         var options = {
             bodyA: bodyA,
             pointB: pointB,
-            stiffness: 0.1,
-            length: 30
+            stiffness: 0.4,
+            length: 35
         }
         this.pointB = pointB;
         this.launch = Constraint.create(options);
